@@ -1,0 +1,109 @@
+body {
+
+	background-color:grey;
+}
+
+.container {
+
+	width: 960px;
+	margin: 0 auto;
+	margin-bottom:50px;
+	background-color: #fff;
+	min-height: 800px;
+}
+
+h1 {
+
+	text-align: center;
+	font-family:sans-serif;
+}
+
+form {
+
+	text-align: center;
+}
+
+
+.paragraph {
+
+	border: 1px solid grey;
+
+	margin: 10px 0;
+	padding:10px;
+}
+
+.user-container {
+	margin-top:20px;
+
+}
+
+section.user {
+	width:48%;
+	padding:1%;
+	float:left;
+	margin-bottom: 20px;
+	border:1px solid grey;
+	height:380px;
+}
+
+.user-container .user:nth-child(2n) {
+
+	border-left: none;
+}
+
+
+
+footer {
+	background-color:#000;
+	color:#fff;
+	height:50px;
+	width:100%;
+	line-height: 50px;
+	text-align: center;
+	position:fixed;
+	bottom:0;
+	left:0;
+}
+
+h5 {
+
+	margin-bottom:5px;
+}
+
+.fix {
+	clear:both;
+}
+
+
+.password {
+	margin:0 auto;
+	height:50px;
+	color:#fff;
+	/*text-align: center;*/
+	font-size: 24px;
+	background-color: #000;
+	padding:10px;
+	border-radius: 5px;
+
+}
+
+
+form.xkcd-password {
+	width:320px;
+	margin:20px auto;
+	font-size:18px;
+}
+
+form.xkcd-password #submit {
+
+	margin-left:70px;
+	margin-top:20px;
+}
+
+.xkcd_info {
+	margin:0 auto;
+	text-align: center;
+}
+.xkcd_info img {
+	margin-top:10px;
+}
