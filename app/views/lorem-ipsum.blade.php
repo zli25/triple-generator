@@ -1,8 +1,14 @@
 @extends('_master')
 
+
+
+@section('header')
+	<h1> Welcome to lorem-ipsum generator</h1>
+@stop
+
 @section('content')
 
-	<h1> Welcome to lorem-ipsum generator</h1>
+	
 
 	{{ Form::open(array('url' => '/lorem-ipsum-generator', 'method' => 'POST')) }}
 

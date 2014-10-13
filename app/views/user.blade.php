@@ -1,8 +1,12 @@
 @extends('_master')
 
+	@section('header')
+	Welcome to random user generator
+@stop
+
 @section('content')
 
-	<h1> Welcome to random user generator</h1>
+	
 
 	{{ Form::open(array('url' => '/user-generator', 'method' => 'POST')) }}
 

@@ -1,8 +1,13 @@
 	@extends('_master')
 
+
+	@section('header')
+	kcd-style-password-generator
+@stop
+
 @section('content')
 
-	<h1>xkcd-style-password-generator</h1>
+	
 
 	<a href='/'>Goback home</a>
 			<div class="password">
@@ -47,7 +52,7 @@
 			<div class="xkcd_info">
 				<a href='http://xkcd.com/936/'>Learn more about xkcd password</a><br>
 		
-			<a href='http://xkcd.com/936/'>
+			<a href='http://xkcd.com/936/'>s
 				<img class='comic' src='http://imgs.xkcd.com/comics/password_strength.png' alt='xkcd style passwords'>
 			</a>
 			</div>

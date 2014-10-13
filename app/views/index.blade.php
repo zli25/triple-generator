@@ -4,10 +4,14 @@
 	Welcome to Triple Generator
 @stop
 
+
+@section('header')
+	Welcome To Triple Generator
+@stop
+
 @section('content')
 
-	<h1>Welcome To Triple Generator</h1>
-
+	
 	<section class="main-section" id="xkcd">
 
 
