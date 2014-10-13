@@ -10,7 +10,7 @@
 				<span><?php echo $password; ?></span>
 			</div>
 			
-			<form class="xkcd-password" action="/password-generator" method="GET">
+			<form class="xkcd-password" action="/password-generator" method="POST">
 				<div class="num_of_word">
 					<label for="num_of_word">The number of words you want:</label>
 					<select  name="num_of_word">

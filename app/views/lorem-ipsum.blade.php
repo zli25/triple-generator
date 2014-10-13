@@ -4,7 +4,7 @@
 
 	<h1> Welcome to lorem-ipsum generator</h1>
 
-	{{ Form::open(array('url' => '/lorem-ipsum-generator', 'method' => 'GET')) }}
+	{{ Form::open(array('url' => '/lorem-ipsum-generator', 'method' => 'POST')) }}
 
 	
 		{{ Form::label('num_of_paragraph', 'How many paragraphs do you want?') }}

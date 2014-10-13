@@ -4,7 +4,7 @@
 
 	<h1> Welcome to random user generator</h1>
 
-	{{ Form::open(array('url' => '/user-generator', 'method' => 'GET')) }}
+	{{ Form::open(array('url' => '/user-generator', 'method' => 'POST')) }}
 
 	
 		{{ Form::label('num_of_user', 'How many users do you want?') }}
