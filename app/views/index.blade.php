@@ -14,10 +14,6 @@
 	
 	<section class="main-section" id="xkcd">
 
-
-
-		
-
 		<img src='http://imgs.xkcd.com/comics/password_strength.png' alt='xkcd style passwords'>
 
 		<div class="content">
